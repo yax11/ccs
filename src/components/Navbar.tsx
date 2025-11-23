@@ -25,9 +25,11 @@ export const Navbar = () => {
           <div className="flex items-center gap-3">
             <div className="flex-shrink-0">
               <Link to="/" className="flex items-center gap-2">
-                <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-bold text-lg">
-                  CCS
-                </div>
+                <img 
+                  src="https://res.cloudinary.com/djxglexas/image/upload/v1763917767/bWtTcVNPeVNfNDAweDQwMF9vNzJpdmo=/mkTqSOyS_400x400_o72ivj.png" 
+                  alt="CCS Logo" 
+                  className="h-10 w-10 rounded-lg object-cover"
+                />
                 <div className="hidden sm:block">
                   <div className="text-base font-semibold text-foreground">Centre for Cyberspace Studies</div>
                   <div className="text-sm text-muted-foreground">Nasarawa State University</div>
